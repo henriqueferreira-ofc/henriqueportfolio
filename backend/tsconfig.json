@@ -20,6 +20,11 @@
     "paths": {
       "@core": ["../core/src"]
     },
+    "baseUrl": "./",
+    "paths": {
+      "@core": ["../core/src"],
+      "@core/*": ["../core/src/*"]
+    },
     "types": ["node", "eslint", "superagent", "yargs"]
   }
 }
