@@ -1,3 +1,6 @@
-import Tecnologia from "./Tecnologias"
+export * from "../projeto"
+export * from "../shared"
+export * from "."
 
-export type { Tecnologia }
+// filepath: ../../core/src/index.ts
+export const x = 'valorExemplo'; // ou exporte o membro correto
