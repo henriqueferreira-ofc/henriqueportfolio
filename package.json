@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "start": "next start",
+    "dev": "cd frontend && npm run dev",
     "dev": "next dev"
   },
   "repository": {
